@@ -1,0 +1,26 @@
+.title-about-sec{
+    margin: 100px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+.title-about{
+    display:flex;
+    align-items: center;
+}
+.title-about-resp{
+    display: none;
+    
+}
+@media( max-width : 820px){
+    .title-about-resp{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .title-about{
+        display: none;
+    }
+}

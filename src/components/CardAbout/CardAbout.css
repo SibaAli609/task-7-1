@@ -1,0 +1,14 @@
+.div-card{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    
+}
+.card-about{
+    width: 270px;
+   
+}
+.card-about img{
+    height: 280px;
+    width: 270px;
+}

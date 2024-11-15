@@ -1,0 +1,40 @@
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+}
+.my-img2{
+    width: 150px;
+    margin-left: 30px;
+}
+.nav2-btn{
+    height:71px;
+    width: 200px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.my-btn-nav2{
+    background-color: white!important;
+    border: 1px solid white;
+    color:black;
+    
+    
+}
+@media(max-width : 1090px){
+    .my-img1{
+        display: none!important;
+    }
+}
+@media(max-width : 992px){
+    .nav2-btn{
+        display: none;
+    } 
+    
+}

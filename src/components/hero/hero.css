@@ -1,0 +1,110 @@
+.s1 li{
+    list-style: none;
+  
+}
+
+ul {
+        padding-left:0!important;
+        flex-wrap: wrap;
+        
+       
+    }
+    .s2 ,.s3{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    
+
+.hero{
+  margin-top: 35px;
+  border-radius: 40px;
+  height: calc(100vh - 35px);
+  background-color: #0a58ca;
+  position: relative;
+}
+
+.btn-hero{
+    background-color: orange!important;
+}
+.di-hero{
+    padding-top: 63px;
+    padding-left: 22px;
+    padding-right: 21px;
+   
+}
+.text-hero{
+    border:1px solid white;
+    border-radius: 32px;
+    max-width: max-content;
+    padding: 0 6px 0 6px;
+    
+}
+
+.photo2{
+   height: 520px;
+   position: absolute;
+   bottom: 0;
+   right: 150px;
+}
+.photo1{
+    height: 50px;
+    width: 100px;
+}
+.my-font{
+    border-left: 1px solid white;
+   
+}
+.photo3{
+   position: absolute;
+   right: 50%;
+   translate: 50%;
+   top: 20px;
+}
+.div-photo3{
+    background-color: white; 
+    width: 140px;
+    height: 140px;
+    border-radius: 51%;
+    position: absolute;
+    bottom: -74px;
+    right: 50%;
+    translate: 50%;
+
+}
+
+
+
+@media (max-width : 1115px){
+   
+    .div-photo3{
+        display: none;
+    }
+    .photo2{
+       
+        height: 250px;
+       
+    }
+    
+    
+    
+}
+@media (max-width : 940px){
+    .hero{
+        height: calc(100vh + 250px);
+    }
+    .photo2{
+        top: 10px;
+        left: 50%;
+        translate: -50%;
+    }
+    .di-hero{
+       padding-top: 250px;
+    }
+}
+@media(max-width : 600px)
+{
+    .hero{
+        height: calc(100vh + 500px);
+    }
+}

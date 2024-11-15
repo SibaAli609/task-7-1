@@ -1,0 +1,44 @@
+.serv-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    }
+    .tilt1{
+        margin:20px 40px 20px 40px;
+    }
+.text{
+    color: blue;
+}
+.div-logo-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.div-logo-right{
+   
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-right{
+   color: white;
+}
+   .logo-row-none{
+    display: none;
+   }
+   .memb-btn{
+    background-color: blue;
+    border-radius: 20px;
+
+   }

@@ -1,0 +1,40 @@
+.cardFeatured ,.cardFeatured-none{
+    position: relative;
+    width: 350px;
+  
+}
+.cardFeatured img , .cardFeatured-none img{
+    width: 100%;
+}
+.div-card-feat{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+   background-color: white;
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   translate: -50%;
+   width: 90%;
+   
+}
+.div-card-feat .btn{
+    border: 1px solid blue;
+    border-radius: 20px;
+    color:blue;
+    
+}
+.div-card-feat .line-card{
+border-bottom: 1px solid rgb(175, 171, 171);
+width: 100%;
+}
+.icon-featured{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgba(240, 240, 240, 0.87);
+}
+@media (max-width: 1115px){
+    .cardFeatured-none{
+        display: none;
+    }
+}

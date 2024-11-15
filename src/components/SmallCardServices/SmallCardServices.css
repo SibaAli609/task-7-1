@@ -1,0 +1,8 @@
+.card2-srev{
+    width: 300px;
+    color:white;
+    padding:20px 40px 20px 40px;
+}
+.card2-srev h4{
+    -webkit-text-stroke: 1px;
+}

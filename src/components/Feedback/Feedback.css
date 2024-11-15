@@ -1,0 +1,54 @@
+.feed-div1{
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    top: -90px;
+    width: 70%;
+    left: 50%;
+    translate: -50%;
+    border-radius: 20px;
+
+}
+.design-titl{
+    color: white;
+}
+.feed-div1 img{
+    width: 100px;
+
+}
+.feed-div1 button{
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 0 10px 0 10px;
+}
+.feed-sec{
+    position: relative;
+    margin-top: 200px;
+}
+.feed-div2{
+    width: 100%;
+    background-color: rgb(200, 221, 238);
+    padding-top: 150px;
+    padding-bottom: 100px;
+ 
+}
+.cards-feed{
+    display:flex;
+    gap: 20px;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+@media (max-width : 969px){
+    .feed-div2{
+        padding-top: 300px;
+    }
+}

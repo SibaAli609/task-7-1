@@ -1,0 +1,8 @@
+.cards-featured{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:20px 40px 20px 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}

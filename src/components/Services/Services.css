@@ -1,0 +1,38 @@
+.MyCrds{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin:20px 40px 20px 40px;
+
+
+}
+.srev-pos{
+   position: relative;
+   width: 100%;
+  background-color: blue;
+  margin-top: 250px;
+   
+}
+.srev-pos .ifram-video{
+  position: absolute;
+  top: -200px;
+  left: 50%;
+  height: 300px;
+  width: 70%;
+  translate: -50%;
+}
+.srev-pos .Cards2-serv{
+  padding-top:150px ;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+@media(max-width : 644px){
+  .srev-pos img{
+    width: 300px;
+    top: -100px;
+  }
+}

@@ -1,0 +1,30 @@
+.img-logo{
+    margin-top: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+
+  
+  
+}
+.img-logo img{
+    width: 145px;
+    margin-left: 40px;
+}
+.logo3{
+    display: none!important;
+
+
+}
+@media (max-width : 1115px){
+    .img-logo{
+        display: none!important;
+    }
+    .logo3{
+        display:block!important ;
+        margin: auto;
+    }
+    
+}
